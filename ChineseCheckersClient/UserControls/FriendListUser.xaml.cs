@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace ChineseCheckersClient.UserControls
 {
     /// <summary>
-    /// Lógica de interacción para UserLobby.xaml
+    /// Lógica de interacción para FriendListUser.xaml
     /// </summary>
-    public partial class UserLobby : UserControl
+    public partial class FriendListUser : UserControl
     {
-        public UserLobby()
+        public FriendListUser()
         {
             InitializeComponent();
         }

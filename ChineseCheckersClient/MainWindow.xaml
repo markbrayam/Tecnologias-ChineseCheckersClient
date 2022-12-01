@@ -5,6 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ChineseCheckersClient"
         mc:Ignorable="d"
-        Title="MainWindow" Height="1000" Width="1920" VerticalAlignment="Center" HorizontalAlignment="Center">
-    
+        Title="MainWindow" Height="680" Width="1220" VerticalAlignment="Center" HorizontalAlignment="Center">
+    <Grid>
+        <Frame x:Name="PageFrame"></Frame>
+        <Frame x:Name="FriendlistFrame"></Frame>
+        <Frame x:Name="InvitationFrame"></Frame>
+    </Grid>
 </Window>

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ChineseCheckersClient.UserControls;
+using ChineseCheckersClient;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,10 +15,10 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ChineseCheckersClient
+namespace ChineseCheckersClient.Pages
 {
     /// <summary>
-    /// Lógica de interacción para PLoggin.xaml
+    /// Lógica de interacción para Loggin.xaml
     /// </summary>
     public partial class Loggin : Page
     {
@@ -25,8 +27,12 @@ namespace ChineseCheckersClient
             InitializeComponent();
         }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
+            Window mainWindow = App.Current.MainWindow;
+            var a = new Lobby();
+            MainWindow mainasd = new MainWindow();
+            mainasd.initPage(a);
 
         }
     }

@@ -28,9 +28,6 @@ namespace ChineseCheckersClient
             
         }
 
-        UIElement dragObject = null;
-        Point offset;
-
         private void Ellipse_MouseMove(object sender, MouseEventArgs e)
         {
             Ellipse ellipse = sender as Ellipse;
@@ -57,7 +54,7 @@ namespace ChineseCheckersClient
 
         private void FillUser0()
         {
-            var fichasUser0 = ["_16_3", "_14_3", "_11_3"]; 
+            //var fichasUser0 = ["_16_3", "_14_3", "_11_3"]; 
         }
 
         private void Ellipse_GiveFeedback(object sender, GiveFeedbackEventArgs e)

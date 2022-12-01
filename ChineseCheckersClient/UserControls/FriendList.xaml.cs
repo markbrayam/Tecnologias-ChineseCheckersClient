@@ -1,5 +1,4 @@
-﻿using ChineseCheckersClient.Pages;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,23 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ChineseCheckersClient
+namespace ChineseCheckersClient.UserControls
 {
     /// <summary>
-    /// Lógica de interacción para MainWindow.xaml
+    /// Lógica de interacción para FriendList.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class FriendList : UserControl
     {
-        public MainWindow()
+        public FriendList()
         {
             InitializeComponent();
-            PageFrame.Content = new Loggin();
-
         }
-        public void setPageFrame(Page pageFrame)
-        {
-            PageFrame.Content = pageFrame;
-        }
-
     }
 }
